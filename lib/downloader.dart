@@ -1,9 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:flutter/foundation.dart';
 
 class Downloader {
   final String url;
-  const Downloader({@required this.url});
+  const Downloader({required this.url});
 
   static final _opt = BaseOptions(
       baseUrl: "https://fluttercompletereference.com/",
